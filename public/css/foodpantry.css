@@ -1,0 +1,40 @@
+/*  Typography  */
+body {
+  font-family: georgia, serif;
+}
+
+/*   Layout  */
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.main-menu li {
+  display: block;
+  width: 16.66666667%;
+  float: left;
+}
+
+.masthead .banner {
+  width: 100%;
+  height: 4em;
+  overflow: hidden;
+}
+
+.masthead .banner img {
+  width: 100%;
+}
+
+.main, .side {
+  padding: 2%;
+}
+
+.side {
+  width: 29.33333%;
+  float: right;
+}
+
+.main {
+  width: 62.66667%;
+  float: left;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "food-pantry-php",
+  "version": "0.0.0",
+  "description": "A website for Norwood, MA's Food Pantry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cabbage:repos/food-pantry-php"
+  },
+  "author": "Andrew Paradise",
+  "license": "BSD",
+  "bundleDependencies": [
+    "grunt",
+    "grunt-contrib-sass",
+    "grunt-cli"
+  ],
+  "dependencies": {
+    "grunt": "https://github.com/gruntjs/grunt/archive/devel.tar.gz",
+    "grunt-contrib-sass": "~0.2.0",
+    "grunt-cli": "~0.1.0"
+  },
+  "devDependencies": {}
+}

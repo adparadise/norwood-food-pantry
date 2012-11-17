@@ -1,0 +1,51 @@
+/*  Typography  */
+
+body {
+    font-family: georgia, serif;
+}
+
+/*   Layout  */
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+$totalWidth: 100%;
+$padding: 2%;
+$mainWidth: 66.666667%;
+$sideWidth: $totalWidth - $mainWidth;
+
+$mainPercent: $mainWidth - 2 * $padding;
+$sidePercent: $sideWidth - 2 * $padding;
+
+.main-menu li {
+    display: block;
+    width: 16.66666667%;
+    float: left;
+}
+
+.masthead .banner {
+    width: 100%;
+    height: 4em;
+    overflow: hidden;
+}
+
+.masthead .banner img {
+    width: 100%;
+}
+
+.main, .side {
+    padding: $padding;
+}
+
+.side {
+    width: $sidePercent;
+    float: right;
+}
+
+.main {
+    width: $mainPercent;
+    float: left;
+}
+
