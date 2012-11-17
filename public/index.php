@@ -1,26 +1,12 @@
 <!doctype html>
 <html>
-  <head>
-    <link rel="stylesheet" href="css/foodpantry.css"/>
-    <link rel="stylesheet" href="css/fifties.css"/>
-    <link rel="stylesheet" href="css/colors.css"/>
-    <meta name="viewport" content="width=device-width initial-scale=1.0" />
-  </head>
+  <?php include("head.php"); ?>
   <body>
     <div class="container">
-      <div class="masthead">
-        <div class="banner">
-          <img src="images/main-banner.jpg"/>
-        </div>
-        <ul class="main-menu">
-          <li class="current"><a href="home">Home</a></li>
-          <li><a href="home">About Us</a></li>
-          <li><a href="home">Need Food?</a></li>
-          <li><a href="home">Want to Help?</a></li>
-          <li><a href="home">Special Thanks</a></li>
-          <li><a href="home">Contact Us</a></li>
-        </ul>
-      </div>
+      <?php 
+         $currentPage = "home";
+         include("masthead.php"); 
+      ?>
       <div class="main">
         <h1>The Ecumenical Community Food Pantry of Norwood</h1>
         <p>The Ecumenical Community Food Pantry of Norwood, Inc. serves
@@ -77,10 +63,8 @@
           <li><img src="images/logos/project-bread.jpg"/></li>
         </ul>
 
-        <p class="footer">
-          Ecumenical Community Food Pantry of Norwood, Inc.<br/>
-          150 Chapel Street, Norwood, MA 02062
-        </p>
+        <?php include("footer.php"); ?>
       </div>
+    </div>
   </body>
 </html>
