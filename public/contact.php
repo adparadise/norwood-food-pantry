@@ -8,10 +8,11 @@
          include("masthead.php"); 
       ?>
       <div class="main">
+        <h2>Pantry Address:</h2>
         <?php include("address.php"); ?>
 
-
-        <?php include("footer.php"); ?>
+        <h3>Do you have a question?</h3>
+        <?php include("director.php"); ?>
       </div>
     </div>
   </body>

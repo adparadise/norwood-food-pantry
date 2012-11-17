@@ -12,11 +12,28 @@ h1 {
 }
 
 h2 {
-  font-size: 1.1em;
+  font-size: 1.0em;
+}
+
+h3 {
+  font-size: 0.9em;
+  margin: .3em 0px;
+}
+
+p, div.vcard {
+  margin: 0em 0em 1em 0em;
+}
+
+ul {
+  margin: 0% 0% 1em 0em;
 }
 
 .footer {
   text-align: center;
+}
+
+.footer div.vcard .adr div {
+  display: inline;
 }
 
 .main-menu li {
@@ -43,7 +60,6 @@ h2 {
 
 ul.main-menu {
   padding: 0%;
-  margin: 0%;
 }
 
 .main-menu li {
@@ -79,6 +95,10 @@ ul.centered-logos {
 
 .centered-logos li {
   display: inline;
+}
+
+.internal-note {
+  display: none;
 }
 
 @media all and (min-width: 40em) {
@@ -117,4 +137,12 @@ ul.centered-logos {
     margin: 2%;
     border: 1px solid black;
     padding: 0% 2%;
+}
+
+  .internal-note {
+    color: red;
+    float: right;
+    display: block;
+    width: 300px;
+    margin-right: -325px;
 } }

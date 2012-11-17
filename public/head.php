@@ -1,4 +1,5 @@
   <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="css/foodpantry.css"/>
     <link rel="stylesheet" href="css/fifties.css"/>
     <link rel="stylesheet" href="css/colors.css"/>

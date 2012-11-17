@@ -20,6 +20,12 @@ h1 {
     margin-bottom: 1em;
 }
 
+h2 {
+    font-family: NewsCycleRegular, helvetica, arial, sans-serif;
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
 .main-menu li {
     font-family: NewsCycleRegular, helvetica, arial, sans-serif;
     text-transform: none;

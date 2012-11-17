@@ -1,3 +1,3 @@
-        <p class="footer">
-          <?php include("address.php"); ?>
-        </p>
+<div class="footer">
+  <?php include("address.php"); ?>
+</div>

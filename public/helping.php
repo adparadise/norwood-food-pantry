@@ -6,7 +6,7 @@
       <?php 
          $currentPage = "helping";
          include("masthead.php"); 
-         ?>
+      ?>
       <div class="main">
         <h1>Want to Help?</h1>
         <h2>How to Donate Food</h2>
@@ -21,7 +21,7 @@
         <p>
           If you are unable to drop food off at that time, consider using one
           of the drop off locations in the community, such as the Norwood Public
-          Library, <span class="notes">need some other ideas.</span> Contact
+          Library, <span class="internal-note">need some other ideas.</span> Contact
           Ruth Taeger at 781-769-0425 for more information or to arrange a
           different drop off time or if you have a perishable food
           item. <b>Please make sure that all food donated has not been opened if
@@ -49,7 +49,7 @@
           <li>Baby food</li>
         </ul>
 
-        <span class="note">Do we want to make up a shopping list that people
+        <span class="internal-note">Do we want to make up a shopping list that people
           can take to the store?</span>
 
         <h2>How to Volunteer</h2>
@@ -77,7 +77,7 @@
           Have a special talent or interest? The Pantry is an
           all-volunteer organization with a wide variety of volunteer
           needs.  For example, we often need drivers to move food from
-          one location to another. <span class="note">What other
+          one location to another. <span class="internal-note">What other
           examples?</span> If you belong to one of the congregations
           represented on our board, speak to your congregational
           representative or find out more from Ruth Taeger at
@@ -94,7 +94,7 @@
 
           <?php include("address.php"); ?>
 
-          <span class="note">Do we want to figure out a way to say something about leaving money in a will?</span>
+          <span class="internal-note">Do we want to figure out a way to say something about leaving money in a will?</span>
         </p>
 
         <h2>How to Organize a Food Drive or Other Activity</h2>
