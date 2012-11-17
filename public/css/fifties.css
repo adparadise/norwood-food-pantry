@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'NewsCycleRegular';
+    src: url('fonts/news-cycle/NewsCycle-Regular-webfont.eot');
+    src: url('fonts/news-cycle/NewsCycle-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/news-cycle/NewsCycle-Regular-webfont.woff') format('woff'),
+         url('fonts/news-cycle/NewsCycle-Regular-webfont.ttf') format('truetype'),
+         url('fonts/news-cycle/NewsCycle-Regular-webfont.svg#NewsCycleRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+    font-family: NewsCycleRegular, helvetica, arial, sans-serif;
+    line-height: 1em;
+    text-transform: none;
+    margin-bottom: 1em;
+}
+
+.main-menu li {
+    font-family: NewsCycleRegular, helvetica, arial, sans-serif;
+    text-transform: none;
+}
+
+p, li {
+    line-height: 1.4em;
+}

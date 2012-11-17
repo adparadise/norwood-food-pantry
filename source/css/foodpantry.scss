@@ -2,28 +2,36 @@
 
 body {
     font-family: georgia, serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.1em;
+}
+
+.footer {
+    text-align: center;
+}
+
+.main-menu li {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 /*   Layout  */
-
-.container {
-    width: 90%;
-    margin: auto;
-}
-
-$totalWidth: 100%;
-$padding: 2%;
-$mainWidth: 66.666667%;
-$sideWidth: $totalWidth - $mainWidth;
-
-$mainPercent: $mainWidth - 2 * $padding;
-$sidePercent: $sideWidth - 2 * $padding;
-
-.main-menu li {
-    display: block;
-    width: 16.66666667%;
-    float: left;
-}
 
 .masthead .banner {
     width: 100%;
@@ -35,17 +43,90 @@ $sidePercent: $sideWidth - 2 * $padding;
     width: 100%;
 }
 
-.main, .side {
-    padding: $padding;
+ul.main-menu {
+    padding: 0%;
+    margin: 0%;
 }
 
-.side {
-    width: $sidePercent;
-    float: right;
-}
-
-.main {
-    width: $mainPercent;
+.main-menu li {
+    display: block;
     float: left;
+    width: 50%;
 }
 
+.main-menu li a {
+    display: block;
+    width: 100%;
+    padding: .5em 0em;
+}
+
+.main, .side {
+    padding: 0% 2%;
+}
+
+.info {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.info ul {
+    padding-left: 2em;
+}
+
+ul.centered-logos {
+    text-align: center;
+    height: 3em;
+    padding: 0em;
+}
+
+.centered-logos li {
+    display: inline;
+}
+
+@media all and (min-width: 40em) {
+    $totalWidth: 100%;
+    $padding: 2%;
+    $mainWidth: 66.666667%;
+    $sideWidth: $totalWidth - $mainWidth;
+    $borderPercent: 4%;
+
+    $mainPercent: $mainWidth - 2 * $padding;
+    $sidePercent: $sideWidth - 2 * $padding;
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .main-menu li {
+        display: block;
+        float: left;
+        width: 16.66666667%;
+    }
+
+    .main-menu li a {
+        display: block;
+        width: 100%;
+        padding: .5em 0em;
+    }
+
+    .main, .side {
+        padding: 0px $padding;
+    }
+
+    .side {
+        width: $sidePercent;
+        float: right;
+    }
+
+    .main {
+        width: $mainPercent;
+        float: left;
+    }
+
+    .info {
+        margin: $padding;
+        border: 1px solid black;
+        padding: 0% $padding;
+    }
+}

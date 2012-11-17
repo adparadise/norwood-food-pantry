@@ -15,12 +15,14 @@
   "bundleDependencies": [
     "grunt",
     "grunt-contrib-sass",
-    "grunt-cli"
+    "grunt-cli",
+    "grunt-contrib-watch"
   ],
   "dependencies": {
     "grunt": "https://github.com/gruntjs/grunt/archive/devel.tar.gz",
     "grunt-contrib-sass": "~0.2.0",
-    "grunt-cli": "~0.1.0"
+    "grunt-cli": "~0.1.0",
+    "grunt-contrib-watch": "~0.1.4"
   },
   "devDependencies": {}
 }

@@ -6,13 +6,15 @@ grunt.initConfig({
         dist: {
             files: {
                 'temp/foodpantry.css': 'source/css/foodpantry.scss',
+                'temp/colors.css': 'source/css/colors.scss'
             }
         }
     },
     whitespace: {
         dist: {
             files: {
-                'temp/foodpantry.css': 'public/css/foodpantry.css'
+                'temp/foodpantry.css': 'public/css/foodpantry.css',
+                'temp/colors.css': 'public/css/colors.css'
             }
         }
     },
@@ -32,6 +34,7 @@ function cleanWhitespace (source, target) {
     fs.writeFileSync(target, contents);
 };
 
+grunt.loadNpmTasks('grunt-contrib-watch');
 
 grunt.loadNpmTasks('grunt-contrib-sass');
 grunt.registerMultiTask('whitespace', "clean up whitespace for SCSS output", function () {

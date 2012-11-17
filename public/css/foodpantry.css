@@ -1,20 +1,36 @@
 /*  Typography  */
 body {
   font-family: georgia, serif;
+  font-size: 14px;
+  margin: 0px;
 }
 
-/*   Layout  */
-.container {
-  width: 90%;
-  margin: auto;
+h1 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+.footer {
+  text-align: center;
 }
 
 .main-menu li {
-  display: block;
-  width: 16.66666667%;
-  float: left;
+  text-align: center;
+  text-transform: uppercase;
 }
 
+.main-menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/*   Layout  */
 .masthead .banner {
   width: 100%;
   height: 4em;
@@ -25,16 +41,80 @@ body {
   width: 100%;
 }
 
-.main, .side {
-  padding: 2%;
+ul.main-menu {
+  padding: 0%;
+  margin: 0%;
 }
 
-.side {
-  width: 29.33333%;
-  float: right;
-}
-
-.main {
-  width: 62.66667%;
+.main-menu li {
+  display: block;
   float: left;
+  width: 50%;
 }
+
+.main-menu li a {
+  display: block;
+  width: 100%;
+  padding: .5em 0em;
+}
+
+.main, .side {
+  padding: 0% 2%;
+}
+
+.info {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.info ul {
+  padding-left: 2em;
+}
+
+ul.centered-logos {
+  text-align: center;
+  height: 3em;
+  padding: 0em;
+}
+
+.centered-logos li {
+  display: inline;
+}
+
+@media all and (min-width: 40em) {
+  .container {
+    width: 90%;
+    margin: auto;
+}
+
+  .main-menu li {
+    display: block;
+    float: left;
+    width: 16.66666667%;
+}
+
+  .main-menu li a {
+    display: block;
+    width: 100%;
+    padding: .5em 0em;
+}
+
+  .main, .side {
+    padding: 0px 2%;
+}
+
+  .side {
+    width: 29.33333%;
+    float: right;
+}
+
+  .main {
+    width: 62.66667%;
+    float: left;
+}
+
+  .info {
+    margin: 2%;
+    border: 1px solid black;
+    padding: 0% 2%;
+} }
