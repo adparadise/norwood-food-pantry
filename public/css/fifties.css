@@ -14,10 +14,12 @@ body {
 }
 
 h1 {
-    font-family: NewsCycleRegular, helvetica, arial, sans-serif;
-    line-height: 1em;
+    font-family: Georgia, serif;
+    font-size: 1.7em;
+    letter-spacing: .08em;
+    font-weight: normal;
     text-transform: none;
-    margin-bottom: 1em;
+    margin: 1em 0em;
 }
 
 h2 {
