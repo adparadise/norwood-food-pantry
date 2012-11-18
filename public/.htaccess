@@ -1,9 +1,9 @@
 RewriteEngine On
 RewriteBase /
+RewriteCond %{ENV:REDIRECT_STATUS} !=404
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule (.*) $1.php [L]
+RewriteRule (.*) $1.php [C]
 
-
-ErrorDocument 404 /errors/404.php
-ErrorDocument 500 /errors/500.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) error.php [L]

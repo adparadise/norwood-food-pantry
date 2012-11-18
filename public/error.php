@@ -7,10 +7,17 @@
          include("includes/masthead.php"); 
       ?>
       <div class="main">
-        <h1>The Ecumenical Community Food Pantry of Norwood</h1>
 
-        <h2>Page Not Found</h2>
-        
+        <?php 
+           $message = "Page not found";
+           switch ($_SERVER['REDIRECT_STATUS']) { 
+               case "500":
+                   $message = "There was a server error...";
+                   break;
+           }
+        ?>
+        <h1><?php echo $message ?></h1>
+
         <?php include("includes/address.php"); ?>
       </div>
     </div>
