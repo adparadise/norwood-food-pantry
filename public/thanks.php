@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
-  <?php include("head.php"); ?>
+  <?php include("includes/head.php"); ?>
   <body>
     <div class="container">
       <?php 
          $currentPage = "thanks";
-         include("masthead.php"); 
+         include("includes/masthead.php"); 
          ?>
 
       <div class="main">
@@ -89,7 +89,7 @@
           </ul>
         </p>
 
-        <?php include("footer.php"); ?>
+        <?php include("includes/footer.php"); ?>
       </div>
     </div>
   </body>

@@ -1,11 +1,15 @@
 <!doctype html>
 <html>
-  <?php include("head.php"); ?>
+  <?php 
+     $title = "Helping";
+     $currentPage = "helping";
+  ?>
+  
+  <?php include("includes/head.php"); ?>
   <body>
     <div class="container">
       <?php 
-         $currentPage = "helping";
-         include("masthead.php"); 
+         include("includes/masthead.php"); 
       ?>
       <div class="main">
         <h1>Want to Help?</h1>
@@ -101,7 +105,7 @@
           occasion or in memory of someone. To make a donation, send
           your check to:
 
-          <?php include("address.php"); ?>
+          <?php include("includes/address.php"); ?>
 
           <span class="internal-note">Do we want to figure out a way to say something about leaving money in a will?</span>
         </p>
@@ -125,7 +129,7 @@
           <a href="http://www.projectbread.org/site/PageServer?pagename=walk_main">Project Bread</a>
         </p>
         
-        <?php include("footer.php"); ?>
+        <?php include("includes/footer.php"); ?>
       </div>
     </div>
   </body>

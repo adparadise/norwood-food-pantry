@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
-  <?php include("head.php"); ?>
+  <?php include("includes/head.php"); ?>
   <body>
     <div class="container">
       <?php 
          $currentPage = "home";
-         include("masthead.php"); 
+         include("includes/masthead.php"); 
       ?>
       <div class="main">
         <h1>The Ecumenical Community Food Pantry of Norwood</h1>
@@ -15,7 +15,7 @@
           independence. All clients are treated with respect and dignity,
           and services are confidential.</p>
 
-        <p><a href="norwood-food-pantry-brochure.pdf">Pantry
+        <p><a href="documents/norwood-food-pantry-brochure.pdf">Pantry
             Brochure</a></p>
 
         <p>If you are not a Norwood or Westwood resident,
@@ -63,7 +63,7 @@
           <li><img src="images/logos/project-bread.jpg"/></li>
         </ul>
 
-        <?php include("footer.php"); ?>
+        <?php include("includes/footer.php"); ?>
       </div>
     </div>
   </body>

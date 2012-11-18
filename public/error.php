@@ -4,15 +4,14 @@
   <body>
     <div class="container">
       <?php 
-         $currentPage = "contact";
          include("includes/masthead.php"); 
       ?>
       <div class="main">
-        <h2>Pantry Address:</h2>
-        <?php include("includes/address.php"); ?>
+        <h1>The Ecumenical Community Food Pantry of Norwood</h1>
 
-        <h3>Do you have a question?</h3>
-        <?php include("includes/director.php"); ?>
+        <h2>Page Not Found</h2>
+        
+        <?php include("includes/address.php"); ?>
       </div>
     </div>
   </body>

@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
-  <?php include("head.php"); ?>
+  <?php include("includes/head.php"); ?>
   <body>
     <div class="container">
       <?php 
          $currentPage = "food";
-         include("masthead.php"); 
+         include("includes/masthead.php"); 
       ?>
       <div class="main">
         <h1>Need Food?</h1>
@@ -39,9 +39,9 @@
         <p>The pantry requires documentation of your need for food.
         Clients have up to three visits to provide adequate
         documentation. For information on documenting your need,
-        see <a href="documents.pdf">Documents</a>. For client
+        see <a href="documents/documents.pdf">Documents</a>. For client
         guidelines regarding use of the pantry,
-        see <a href="guidelines.pdf">Guidelines</a>.</p>
+        see <a href="documents/guidelines.pdf">Guidelines</a>.</p>
 
         <div class="info">
           <h2>Our Pantry Carries Gluten-free Food</h2>
@@ -59,7 +59,7 @@
         basement of the church. Please call Ruth Taeger at
         781-869-0425 to discuss your needs.</p>
 
-        <?php include("footer.php"); ?>
+        <?php include("includes/footer.php"); ?>
       </div>
     </div>
   </body>

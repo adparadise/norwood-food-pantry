@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
-  <?php include("head.php"); ?>
+  <?php include("includes/head.php"); ?>
   <body>
     <div class="container">
       <?php 
          $currentPage = "about";
-         include("masthead.php"); 
+         include("includes/masthead.php"); 
       ?>
       <div class="main">
         <h1>About Us</h1>
@@ -37,7 +37,7 @@
           officers, appointed members, and representatives from each of
           the participating churches and synagogue.</p>
         
-        <?php include("footer.php"); ?>
+        <?php include("includes/footer.php"); ?>
       </div>
     </div>
   </body>
