@@ -58,6 +58,14 @@ ul {
   width: 100%;
 }
 
+ul.plain {
+  padding: 0em 1em;
+}
+
+ul.plain li {
+  list-style-type: none;
+}
+
 ul.main-menu {
   padding: 0%;
 }

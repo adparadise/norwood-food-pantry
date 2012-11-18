@@ -20,7 +20,7 @@
         <span class="internal-note">THIS LIST BELOW IS HERE TO HELP US WITH CATEGORIES:</span>
 
         <p>The following is a list, in alphabetical order:
-          <ul>
+          <ul class="plain">
             <li>Advanced Instruments</li>
             <li>Ahold Financial Services</li>
             <li>Analog Devices</li>

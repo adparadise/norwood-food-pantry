@@ -9,10 +9,19 @@
       ?>
       <div class="main">
         <h1>Want to Help?</h1>
-        <h2>How to Donate Food</h2>
+
+        <ul class="plain">
+          <li><a href="#donating-food">Donate Food</a></li>
+          <li><a href="#volunteering">Volunteer</a></li>
+          <li><a href="#donating-money">Donate Money</a></li>
+          <li><a href="#organizing-drives">Organize a Food Drive or Other Activity</a></li>
+          <li><a href="#walks">Participate in the Walk for Hunger or Walk With Grace</a></li>
+        </ul>
+
+        <h2><a name="donating-food">How to Donate Food</a></h2>
         
         <p>The pantry accepts donations of nonperishable food and other items on: 
-          <ul>
+          <ul class="plain">
             <li>Thursday mornings between 8:30 and 9:30 AM</li>
             <li>Saturday mornings between 8:30 and 11 AM</li>
           </ul>
@@ -52,7 +61,7 @@
         <span class="internal-note">Do we want to make up a shopping list that people
           can take to the store?</span>
 
-        <h2>How to Volunteer</h2>
+        <h2><a name="volunteering">How to Volunteer</a></h2>
         <h3>Saturday Morning Volunteers</h3>
         <p>
           Adult volunteers are needed on Saturday mornings from 8 to 11:30 AM
@@ -84,7 +93,7 @@
           781-769-0425.
         </p>
 
-        <h2>How to Donate Money</h2>
+        <h2><a name="donating-money">How to Donate Money</a></h2>
         <p>
           The Pantry is a 501(c)(3) non-profit corporation, so your
           contribution is fully tax deductible. All contributions will
@@ -97,7 +106,7 @@
           <span class="internal-note">Do we want to figure out a way to say something about leaving money in a will?</span>
         </p>
 
-        <h2>How to Organize a Food Drive or Other Activity</h2>
+        <h2><a name="organizing-drives">How to Organize a Food Drive or Other Activity</a></h2>
         <p>
           We are especially grateful to the many individuals, schools,
           churches and synagogues, community organizations, and businesses that
@@ -105,7 +114,7 @@
           organizing a food drive, speak to Ruth Taeger at 781-769-5650.
         </p>
 
-        <h2>How to Participate in the Walk for Hunger or Walk With Grace</h2>
+        <h2><a name="walks">How to Participate in the Walk for Hunger or Walk With Grace</a></h2>
         <p>
           On the first Sunday each May, Project Bread sponsors the Walk for
           Hunger.  Each autumn, Grace Episcopal Church sponsors the Walk With
