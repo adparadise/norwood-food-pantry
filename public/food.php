@@ -3,9 +3,9 @@
   <?php include("includes/head.php"); ?>
   <body>
     <div class="container">
-      <?php 
+      <?php
          $currentPage = "food";
-         include("includes/masthead.php"); 
+         include("includes/masthead.php");
       ?>
       <div class="main">
         <h1>Need Food?</h1>
@@ -61,6 +61,8 @@
 
         <?php include("includes/footer.php"); ?>
       </div>
+
+      <div class="clear"></div>
     </div>
   </body>
 </html>

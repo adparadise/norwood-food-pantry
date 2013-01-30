@@ -1,22 +1,44 @@
-$black: #000;
+$white: #fff;
 $gray: #ccc;
 $darkGray: #333;
 $lightGray: #eee;
+$black: #000;
 
-.main-menu li.current {
-    background: $gray;
+$coolBase: #05f;
+
+$lightWarm: #fff3c6;
+$darkWarm: mix($lightWarm, $darkGray, 10%);
+$lightCool: #9c8;
+$lightNeutral: mix($lightWarm, $lightCool);
+$darkCool: mix($coolBase, $darkGray, 10%);
+$darkCoolShadow: mix($darkCool, $black, 50%);
+
+
+.masthead .banner { background-color: $lightWarm; }
+.masthead .banner h1 { color: $darkGray; }
+
+body { background-color: $darkCool; }
+
+.container { background-color: $white; }
+.container {
+    box-shadow: 1em 2em 3em $darkCoolShadow;
+    -mox-box-shadow: 1em 2em 3em $darkCoolShadow;
+    -webkit-box-shadow: 1em 2em 3em $darkCoolShadow;
 }
+
+
+.main-menu li { background-color: $lightNeutral; }
+.main-menu li.current { background-color: $lightCool; }
 
 .main-menu a,
 .main-menu a:hover,
 .main-menu a:visited,
 .main-menu a:active,
-.main-menu a:link {
-    color: $black;
-}
+.main-menu a:link { color: $black; }
 
 a { color: $black; }
-a:link { color: $darkGray; }
-a:link:visited { color: $darkGray; }
-a:link:active  { color: $darkGray; }
+a:hover,
+a:visited,
+a:active  { color: $darkGray; }
+
 

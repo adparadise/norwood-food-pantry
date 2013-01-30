@@ -17,7 +17,7 @@ h2 {
 
 h3 {
   font-size: 0.9em;
-  margin: .3em 0px;
+  margin: 0.3em 0px;
 }
 
 p, div.vcard {
@@ -50,12 +50,20 @@ ul {
 /*   Layout  */
 .masthead .banner {
   width: 100%;
-  height: 4em;
-  overflow: hidden;
+  height: 6em;
+  background-image: url(../images/banner-large.jpg);
+  background-position: right 60%;
+  background-repeat: no-repeat;
+  background-size: 40%;
 }
 
-.masthead .banner img {
-  width: 100%;
+.masthead .banner h1 {
+  margin: 0em 4%;
+  text-align: left;
+  font-size: 1.3em;
+  font-weight: bold;
+  position: relative;
+  bottom: 0em;
 }
 
 ul.plain {
@@ -79,11 +87,15 @@ ul.main-menu {
 .main-menu li a {
   display: block;
   width: 100%;
-  padding: .5em 0em;
+  padding: 0.5em 0em;
+}
+
+.main-menu li.last {
+  clear: right;
 }
 
 .main, .side {
-  padding: 0% 2%;
+  padding: 0% 4%;
 }
 
 .info {
@@ -109,10 +121,24 @@ ul.centered-logos {
   display: none;
 }
 
+.container {
+  padding-bottom: 2em;
+}
+
+.clear {
+  clear: both;
+}
+
 @media all and (min-width: 40em) {
+  .masthead .banner h1 {
+    font-size: 1.7em;
+    margin: 0em 4%;
+}
+
   .container {
     width: 90%;
     margin: auto;
+    border-radius: 0em 0em 0.5em 0.5em;
 }
 
   .main-menu li {
@@ -124,20 +150,24 @@ ul.centered-logos {
   .main-menu li a {
     display: block;
     width: 100%;
-    padding: .5em 0em;
+    padding: 0.5em 0em;
 }
 
-  .main, .side {
-    padding: 0px 2%;
+  .main {
+    padding: 0px 2% 0px 4%;
 }
 
   .side {
-    width: 29.33333%;
+    padding: 0px 4% 0px 2%;
+}
+
+  .side {
+    width: 27.33333%;
     float: right;
 }
 
   .main {
-    width: 62.66667%;
+    width: 60.66667%;
     float: left;
 }
 
@@ -145,12 +175,4 @@ ul.centered-logos {
     margin: 2%;
     border: 1px solid black;
     padding: 0% 2%;
-}
-
-  .internal-note {
-    color: red;
-    float: right;
-    display: block;
-    width: 300px;
-    margin-right: -325px;
 } }

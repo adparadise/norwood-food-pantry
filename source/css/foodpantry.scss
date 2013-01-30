@@ -55,12 +55,20 @@ ul {
 
 .masthead .banner {
     width: 100%;
-    height: 4em;
-    overflow: hidden;
+    height: 6em;
+    background-image: url(../images/banner-large.jpg);
+    background-position: right 60%;
+    background-repeat: no-repeat;
+    background-size: 40%;
 }
 
-.masthead .banner img {
-    width: 100%;
+.masthead .banner h1 {
+    margin: 0em 4%;
+    text-align: left;
+    font-size: 1.3em;
+    font-weight: bold;
+    position: relative;
+    bottom: 0em;
 }
 
 ul.plain {
@@ -87,8 +95,12 @@ ul.main-menu {
     padding: .5em 0em;
 }
 
+.main-menu li.last {
+    clear: right;
+}
+
 .main, .side {
-    padding: 0% 2%;
+    padding: 0% 4%;
 }
 
 .info {
@@ -114,6 +126,14 @@ ul.centered-logos {
     display: none;
 }
 
+.container {
+    padding-bottom: 2em;
+}
+
+.clear {
+    clear: both;
+}
+
 @media all and (min-width: 40em) {
     $totalWidth: 100%;
     $padding: 2%;
@@ -121,12 +141,18 @@ ul.centered-logos {
     $sideWidth: $totalWidth - $mainWidth;
     $borderPercent: 4%;
 
-    $mainPercent: $mainWidth - 2 * $padding;
-    $sidePercent: $sideWidth - 2 * $padding;
+    $mainPercent: $mainWidth - 3 * $padding;
+    $sidePercent: $sideWidth - 3 * $padding;
+
+    .masthead .banner h1 {
+        font-size: 1.7em;
+        margin: 0em 4%;
+    }
 
     .container {
         width: 90%;
         margin: auto;
+        border-radius: 0em 0em .5em .5em;
     }
 
     .main-menu li {
@@ -141,8 +167,12 @@ ul.centered-logos {
         padding: .5em 0em;
     }
 
-    .main, .side {
-        padding: 0px $padding;
+    .main {
+        padding: 0px $padding 0px $padding*2;
+    }
+
+    .side {
+        padding: 0px $padding*2 0px $padding;
     }
 
     .side {
@@ -160,13 +190,4 @@ ul.centered-logos {
         border: 1px solid black;
         padding: 0% $padding;
     }
-
-    .internal-note {
-        color: red;
-        float: right;
-        display: block;
-        width: 300px;
-        margin-right: -325px;
-    }
-
 }

@@ -1,15 +1,15 @@
 <!doctype html>
 <html>
-  <?php 
+  <?php
      $title = "Helping";
      $currentPage = "helping";
   ?>
-  
+
   <?php include("includes/head.php"); ?>
   <body>
     <div class="container">
-      <?php 
-         include("includes/masthead.php"); 
+      <?php
+         include("includes/masthead.php");
       ?>
       <div class="main">
         <h1>Want to Help?</h1>
@@ -23,14 +23,14 @@
         </ul>
 
         <h2><a name="donating-food">How to Donate Food</a></h2>
-        
-        <p>The pantry accepts donations of nonperishable food and other items on: 
+
+        <p>The pantry accepts donations of nonperishable food and other items on:
           <ul class="plain">
             <li>Thursday mornings between 8:30 and 9:30 AM</li>
             <li>Saturday mornings between 8:30 and 11 AM</li>
           </ul>
         </p>
-        
+
         <p>
           If you are unable to drop food off at that time, consider using one
           of the drop off locations in the community, such as the Norwood Public
@@ -124,13 +124,15 @@
           Hunger.  Each autumn, Grace Episcopal Church sponsors the Walk With
           Grace. Please consider organizing a team for these events. To find our
           more, visit their
-          websites. 
+          websites.
           <a href="http://www.projectbread.org/site/PageServer?pagename=walk_main">Walk for Hunger in Boston</a>
           <a href="http://www.projectbread.org/site/PageServer?pagename=walk_main">Project Bread</a>
         </p>
-        
+
         <?php include("includes/footer.php"); ?>
       </div>
+
+      <div class="clear"></div>
     </div>
   </body>
 </html>

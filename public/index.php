@@ -3,12 +3,12 @@
   <?php include("includes/head.php"); ?>
   <body>
     <div class="container">
-      <?php 
+      <?php
          $currentPage = "home";
-         include("includes/masthead.php"); 
+         include("includes/masthead.php");
       ?>
       <div class="main">
-        <h1>The Ecumenical Community Food Pantry of Norwood</h1>
+        <h1></h1>
         <p>The Ecumenical Community Food Pantry of Norwood, Inc. serves
           over 350 families in the towns of Norwood and Westwood. We
           encourage clients to use the pantry as a stepping stone toward
@@ -28,14 +28,14 @@
         <p>Announcements</p>
         <p>Links</p>
       </div>
-      
+
       <div class="main">
         <div class="info">
           <h2>Did you know?</h2>
           <ul>
             <li>The pantry opened in 1989 providing food to six
               clients.</li>
-            
+
             <li>We have a completely volunteer staff, giving many hours of
               their time each week to purchasing food, stocking shelves,
               sorting goods by expiration dates, cleaning, repairing, and
@@ -65,6 +65,8 @@
 
         <?php include("includes/footer.php"); ?>
       </div>
+
+      <div class="clear"></div>
     </div>
   </body>
 </html>

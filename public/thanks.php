@@ -3,20 +3,20 @@
   <?php include("includes/head.php"); ?>
   <body>
     <div class="container">
-      <?php 
+      <?php
          $currentPage = "thanks";
-         include("includes/masthead.php"); 
+         include("includes/masthead.php");
          ?>
 
       <div class="main">
         <h1>Special Thanks</h1>
-        
+
         <p>Each year, hundreds of individuals, schools, religious and community organizations, businesses, and charitable foundations help us in many ways.  We want to thank you, one and all!</p>
-        
+
         <span class="internal-note">Foundations?<br/>Local supermarkets?</span>
-        
+
         <p>Visit the News and Events section of our homepage for more information.</p>
-        
+
         <span class="internal-note">THIS LIST BELOW IS HERE TO HELP US WITH CATEGORIES:</span>
 
         <p>The following is a list, in alphabetical order:
@@ -91,6 +91,8 @@
 
         <?php include("includes/footer.php"); ?>
       </div>
+
+      <div class="clear"></div>
     </div>
   </body>
 </html>

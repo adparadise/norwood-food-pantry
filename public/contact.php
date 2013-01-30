@@ -3,9 +3,9 @@
   <?php include("includes/head.php"); ?>
   <body>
     <div class="container">
-      <?php 
+      <?php
          $currentPage = "contact";
-         include("includes/masthead.php"); 
+         include("includes/masthead.php");
       ?>
       <div class="main">
         <h2>Pantry Address:</h2>
@@ -14,6 +14,8 @@
         <h3>Do you have a question?</h3>
         <?php include("includes/director.php"); ?>
       </div>
+
+      <div class="clear"></div>
     </div>
   </body>
 </html>
