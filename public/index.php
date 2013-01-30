@@ -56,12 +56,10 @@
           to all of you for all you do.</p>
 
         <ul class="centered-logos">
-          <li><img src="images/logos/project-bread.jpg"/></li>
-          <li><img src="images/logos/project-bread.jpg"/></li>
-          <li><img src="images/logos/project-bread.jpg"/></li>
-          <li><img src="images/logos/project-bread.jpg"/></li>
-          <li><img src="images/logos/project-bread.jpg"/></li>
+          <li><img src="images/ProjectBreadlogo.gif"/></li>
+          <li><img src="images/UnitedWaylogo.jpg"/></li>
         </ul>
+        <div class="clear"></div>
 
         <?php include("includes/footer.php"); ?>
       </div>

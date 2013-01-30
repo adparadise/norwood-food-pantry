@@ -33,6 +33,7 @@ ul {
 
 .footer {
     text-align: center;
+    margin-top: 1em;
 }
 
 .footer div.vcard .adr div {
@@ -114,12 +115,16 @@ ul.main-menu {
 
 ul.centered-logos {
     text-align: center;
-    height: 3em;
+    height: 4em;
     padding: 0em;
 }
 
 .centered-logos li {
     display: inline;
+}
+
+.centered-logos li img {
+    max-height: 4em;
 }
 
 .internal-note {
