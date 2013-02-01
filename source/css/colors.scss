@@ -16,7 +16,11 @@ $thinLightNeutral: mix($lightNeutral, $white);
 
 
 .masthead .banner { background-color: $lightWarm; }
-.masthead .banner h1 { color: $darkGray; }
+.masthead .banner h1 {
+    color: $darkGray;
+    text-shadow: $lightWarm 0em 0em .2em;
+    filter: dropshadow(color=$lightWarm, offx=1, offy=1);
+}
 
 body { background-color: $darkCool; }
 
