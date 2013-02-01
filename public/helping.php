@@ -7,7 +7,7 @@
 
   <?php include("includes/head.php"); ?>
   <body>
-    <div class="container">
+    <div class="container single-column">
       <?php
          include("includes/masthead.php");
       ?>

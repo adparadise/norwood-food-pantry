@@ -4,10 +4,10 @@
 ?>
       <div class="masthead">
         <div class="banner">
-          <h1>
-          The Ecumenical Community<br/>
-          Food Pantry of Norwood
-          <h1>
+          <h1><a href="/">
+             The Ecumenical Community<br/>
+             Food Pantry of Norwood
+          </a><h1>
         </div>
         <ul class="main-menu">
           <li class="<?php echo $classes['home'] ?>"><a href="index">Home</a></li>

@@ -2,7 +2,7 @@
 <html>
   <?php include("includes/head.php"); ?>
   <body>
-    <div class="container">
+    <div class="container single-column">
       <?php
          $currentPage = "food";
          include("includes/masthead.php");

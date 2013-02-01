@@ -14,6 +14,10 @@ h1 {
     text-align: center;
 }
 
+h1 a {
+    text-decoration: none;
+}
+
 h2 {
     font-size: 1.0em;
 }
@@ -60,7 +64,7 @@ ul {
     background-image: url(../images/banner-large.jpg);
     background-position: right 60%;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 50%;
 }
 
 .masthead .banner h1 {
@@ -149,6 +153,8 @@ ul.centered-logos {
     $mainPercent: $mainWidth - 3 * $padding;
     $sidePercent: $sideWidth - 3 * $padding;
 
+    $mainWidthSingle: $totalWidth - 4 * $padding;
+
     .masthead .banner h1 {
         font-size: 1.7em;
         margin: 0em 4%;
@@ -156,6 +162,7 @@ ul.centered-logos {
 
     .container {
         width: 90%;
+        max-width: 50em;
         margin: auto;
         border-radius: 0em 0em .5em .5em;
     }
@@ -174,20 +181,19 @@ ul.centered-logos {
 
     .main {
         padding: 0px $padding 0px $padding*2;
+        width: $mainPercent;
+        float: left;
     }
 
     .side {
         padding: 0px $padding*2 0px $padding;
-    }
-
-    .side {
         width: $sidePercent;
         float: right;
     }
 
-    .main {
-        width: $mainPercent;
-        float: left;
+    .single-column .main {
+        padding: 0px $padding*2;
+        width: $mainWidthSingle;
     }
 
     .info {

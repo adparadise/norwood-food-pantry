@@ -2,7 +2,7 @@
 <html>
   <?php include("includes/head.php"); ?>
   <body>
-    <div class="container">
+    <div class="container single-column">
       <?php
          $currentPage = "home";
          include("includes/masthead.php");
@@ -15,19 +15,23 @@
           independence. All clients are treated with respect and dignity,
           and services are confidential.</p>
 
+        <!--
         <p><a href="documents/norwood-food-pantry-brochure.pdf">Pantry
             Brochure</a></p>
+        -->
 
         <p>If you are not a Norwood or Westwood resident,
           the <a href="http://www.gbfb.org">Greater Boston Food Bank</a>
           can help you locate a pantry in your community.</p>
       </div>
 
+      <!--
       <div class="side">
         <h1>News and Events</h1>
         <p>Announcements</p>
         <p>Links</p>
       </div>
+      -->
 
       <div class="main">
         <div class="info">
@@ -42,8 +46,10 @@
               handling administrative duties. Currently, we have over 100
               volunteers involved in one or more of these activities.</li>
 
+            <!--
             <li>Last year we collected over XXXXX-lbs of food for
               distribution.</li>
+            -->
 
             <li>Federal/USDA data, values food at $1.66 per
               pound. Fortunately we receive many donations of food rather

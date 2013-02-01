@@ -5,13 +5,14 @@ $lightGray: #eee;
 $black: #000;
 
 $coolBase: #05f;
-
 $lightWarm: #fff3c6;
-$darkWarm: mix($lightWarm, $darkGray, 10%);
 $lightCool: #9c8;
+
+$darkWarm: mix($lightWarm, $darkGray, 10%);
 $lightNeutral: mix($lightWarm, $lightCool);
 $darkCool: mix($coolBase, $darkGray, 10%);
 $darkCoolShadow: mix($darkCool, $black, 50%);
+$thinLightNeutral: mix($lightNeutral, $white);
 
 
 .masthead .banner { background-color: $lightWarm; }
@@ -41,4 +42,5 @@ a:hover,
 a:visited,
 a:active  { color: $darkGray; }
 
+.info { background-color: $thinLightNeutral; }
 
