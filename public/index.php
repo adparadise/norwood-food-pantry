@@ -68,6 +68,7 @@
         <ul class="centered-logos">
           <li><img src="images/ProjectBreadlogo.gif"/></li>
           <li><img src="images/UnitedWaylogo.jpg"/></li>
+          <li><img src="images/BlueHillsCharitable.jpg"/></li>
         </ul>
         <div class="clear"></div>
 

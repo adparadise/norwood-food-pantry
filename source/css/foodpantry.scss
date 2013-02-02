@@ -120,16 +120,17 @@ ul.main-menu {
 
 ul.centered-logos {
     text-align: center;
-    height: 4em;
     padding: 0em;
 }
 
 .centered-logos li {
     display: inline;
+    height: 4em;
 }
 
 .centered-logos li img {
     max-height: 4em;
+    max-width: 10em;
 }
 
 .internal-note {
@@ -142,6 +143,11 @@ ul.centered-logos {
 
 .clear {
     clear: both;
+}
+
+.fb-like {
+    float: right;
+    padding: .5em 0em;
 }
 
 @media all and (min-width: 40em) {
