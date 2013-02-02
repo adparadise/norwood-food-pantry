@@ -11,7 +11,6 @@
          include("includes/masthead.php");
       ?>
       <div class="main">
-        <?php include("includes/sharing.php"); ?>
         <h1></h1>
         <p>The Ecumenical Community Food Pantry of Norwood, Inc. serves
           over 350 families in the towns of Norwood and Westwood. We
