@@ -2,9 +2,9 @@
 <html>
   <?php include("includes/head.php"); ?>
   <body>
-    <div class="container">
-      <?php 
-         include("includes/masthead.php"); 
+    <div class="container single-column">
+      <?php
+         include("includes/masthead.php");
       ?>
       <div class="main">
 
@@ -12,6 +12,7 @@
 
         <?php include("includes/address.php"); ?>
       </div>
+      <div class="clear"></div>
     </div>
   </body>
 </html>
