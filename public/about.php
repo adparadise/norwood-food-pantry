@@ -3,7 +3,7 @@
   <?php
      $currentPage = "about";
      $subtitle = "About";
-     $description = "History and mission of the Norwood Ecumenical Food Pantry";
+     $description = "History and mission of the Norwood Ecumenical Food Pantry.";
   ?>
   <?php include("includes/head.php"); ?>
   <body>
