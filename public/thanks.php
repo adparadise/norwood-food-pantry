@@ -1,12 +1,16 @@
 <!doctype html>
 <html>
+  <?php
+     $currentPage = "thanks";
+     $subtitle = "Special Thanks";
+     $description = "A thank you to those who have contributed to the Food Pantry.";
+  ?>
   <?php include("includes/head.php"); ?>
   <body>
     <div class="container single-column">
       <?php
-         $currentPage = "thanks";
          include("includes/masthead.php");
-         ?>
+      ?>
 
       <div class="main">
         <h1>Special Thanks</h1>

@@ -1,0 +1,5 @@
+RewriteEngine On
+
+
+RewriteBase /
+RewriteRule ^/?contact$ contact.php[L]

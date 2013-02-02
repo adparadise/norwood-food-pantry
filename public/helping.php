@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
   <?php
-     $title = "Helping";
      $currentPage = "helping";
+     $subtitle = "Helping";
+     $description = "How to help the Food Pantry.";
   ?>
-
   <?php include("includes/head.php"); ?>
   <body>
     <div class="container single-column">

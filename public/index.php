@@ -1,10 +1,14 @@
 <!doctype html>
 <html>
+  <?php
+     $currentPage = "home";
+     $subtitle = "Home";
+     $description = "A food pantry serving the families of Norwood, MA.";
+  ?>
   <?php include("includes/head.php"); ?>
   <body>
     <div class="container single-column">
       <?php
-         $currentPage = "home";
          include("includes/masthead.php");
       ?>
       <div class="main">

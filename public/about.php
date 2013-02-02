@@ -1,10 +1,14 @@
 <!doctype html>
 <html>
+  <?php
+     $currentPage = "about";
+     $subtitle = "About";
+     $description = "History and mission of the Norwood Ecumenical Food Pantry";
+  ?>
   <?php include("includes/head.php"); ?>
   <body>
     <div class="container single-column">
       <?php
-         $currentPage = "about";
          include("includes/masthead.php");
       ?>
       <div class="main">

@@ -1,10 +1,14 @@
 <!doctype html>
 <html>
+  <?php
+     $currentPage = "contact";
+     $subtitle = "Contact Us";
+     $description = "Address and contact information for the Food Pantry.";
+  ?>
   <?php include("includes/head.php"); ?>
   <body>
     <div class="container single-column">
       <?php
-         $currentPage = "contact";
          include("includes/masthead.php");
       ?>
       <div class="main">
