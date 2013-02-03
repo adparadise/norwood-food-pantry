@@ -7,7 +7,7 @@
           <h1><a href="/">
              The Ecumenical Community<br/>
              Food Pantry of Norwood
-          </a><h1>
+          </a></h1>
         </div>
         <ul class="main-menu">
           <li class="<?php echo $classes['home'] ?>"><a href="index">Home</a></li>
